@@ -1,5 +1,15 @@
-# Machine Learning-Assisted Screening of Antioxidant Nanozymes  
+<div align="center">
+
+# 🧬 Machine Learning-Assisted Screening of Antioxidant Nanozymes
 # 机器学习辅助抗氧化纳米酶活性预测与筛选
+
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Nanozyme%20Screening-2E8B57)
+
+*Predicting enzyme-like activity and screening promising bifunctional antioxidant nanozymes with machine learning.*
+
+</div>
 
 This repository contains the code and datasets used for an undergraduate thesis project on machine learning-assisted prediction and screening of antioxidant nanozymes. The project focuses on nanozymes with superoxide dismutase-like (SOD-like) and catalase-like (CAT-like) activities, aiming to support the discovery of bifunctional antioxidant nanozymes with desirable activity profiles.
 
@@ -7,7 +17,7 @@ This repository contains the code and datasets used for an undergraduate thesis 
 
 ---
 
-## Project Overview
+## 🔬 Project Overview
 
 Nanozymes are nanomaterials that mimic the catalytic functions of natural enzymes and have broad potential in reactive oxygen species (ROS) scavenging and oxidative stress regulation. Among them, bifunctional antioxidant nanozymes with both SOD-like and CAT-like activities are closer to the natural stepwise ROS elimination process.
 
@@ -23,7 +33,7 @@ The main objectives of this project are:
 
 ---
 
-## Repository Structure
+## 🗂️ Repository Structure
 
 ```text
 .
@@ -43,9 +53,9 @@ The main objectives of this project are:
 
 ---
 
-## Files
+## 📁 Files
 
-### Notebooks
+### 📓 Notebooks
 
 #### `01_SOD_Nanozyme_Model_Training.ipynb`
 
@@ -61,7 +71,7 @@ This notebook is used for integrated screening and analysis of candidate nanozym
 
 ---
 
-### Data Files
+### 📊 Data Files
 
 #### `data-sod.xlsx`
 
@@ -81,7 +91,7 @@ Dataset for OXD-like nanozyme activity.
 
 ---
 
-## Environment
+## 🛠️ Environment
 
 The code was developed using Python and Jupyter Notebook. The main packages used in this project include:
 
@@ -106,13 +116,13 @@ pip install -r requirements.txt
 
 ---
 
-## Usage
+## 🚀 Usage
 
 Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/nanozyme-activity-prediction.git
-cd nanozyme-activity-prediction
+git clone https://github.com/chu1xi/Machine-Learning-Assisted-Design-of-Antioxidant-Nanoenzymes.git
+cd Machine-Learning-Assisted-Design-of-Antioxidant-Nanoenzymes
 ```
 
 Install dependencies:
@@ -129,11 +139,12 @@ Run the notebooks in the following order:
 3. notebooks/03_Screening_and_Analysis.ipynb
 ```
 
-Before running the notebooks, please make sure that all data files are placed in the `data/` folder.
+> [!IMPORTANT]
+> Before running the notebooks, please make sure that all data files are placed in the `data/` folder.
 
 ---
 
-## Important Notes
+## ⚠️ Important Notes
 
 Some paths in the original local notebooks may need to be adjusted before running on another computer. It is recommended to use relative paths such as:
 
@@ -163,7 +174,7 @@ because these paths are only valid on the original computer and cannot be used b
 
 ---
 
-## Output
+## 📈 Output
 
 The notebooks may generate model evaluation results, figures, feature importance files, SHAP analysis results, and candidate screening results. These output files can be saved in a `results/` folder.
 
@@ -171,7 +182,7 @@ Large intermediate files and trained model files are not necessarily included in
 
 ---
 
-## Thesis Information
+## 🎓 Thesis Information
 
 This repository supports the undergraduate thesis project:
 
@@ -180,7 +191,7 @@ This repository supports the undergraduate thesis project:
 
 ---
 
-## Author
+## 👤 Author
 
 Zibin Chu
 Beijing University of Chemical Technology  
@@ -188,6 +199,6 @@ Bioengineering + Data Science / Big Data Management
 
 ---
 
-## License
+## 📄 License
 
 This repository is intended for academic research and thesis-related demonstration. Please cite or acknowledge this repository if you use the code or data structure for related research.
